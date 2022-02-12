@@ -8,10 +8,11 @@ body{
 
 h1{
   text-align: center;
-  border-bottom: 1px solid white
+  
 }
 h3{
   text-align: center;
+  
 }
 .hobbies{
   text-align: center;
@@ -42,4 +43,7 @@ footer{
 
 img {
   margin: auto;
+}
+.top{
+  border-bottom: 1px solid white
 }
