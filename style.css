@@ -15,4 +15,31 @@ h3{
 }
 .hobbies{
   text-align: center;
+  
+}
+footer{
+  text-align: center;
+  margin: 85px 0px; 
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.hobby-images {
+  padding: 10px;
+  flex: 33%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+img {
+  margin: auto;
 }
